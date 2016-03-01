@@ -1,0 +1,133 @@
+	body
+	{
+		background-image: url("../image/bg.gif");
+	}
+
+	#container, header, nav, aside, section, footer
+	{
+		border-radius:10px;
+	}
+	#container{
+		width: 90%;
+		background: #faebd7;
+		margin: auto;
+		padding:10px 10px;
+	}
+
+	header
+	{
+		/*background: #1e90ff;*/
+		background: rgb(252,234,187); /* Old browsers */
+		background: -moz-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 53%, rgba(251,223,147,1) 100%); /* FF3.6-15 */
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 34%,rgba(252,205,77,1) 34%,rgba(248,181,0,1) 53%,rgba(251,223,147,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		border-radius: 20px;
+		margin: 10px 0px;
+	}
+
+
+	header h1
+	{
+		text-align: center;
+		padding: 10px 5px;
+		margin:0px;
+	}
+
+	nav{
+		
+		background: #f4a460;
+		margin:10px 0px;
+		margin-bottom:10px;
+	}
+	
+	
+	nav ul li
+	{
+		display: inline-block;
+		padding: 5px 2px;
+		
+		
+	}
+	
+	nav ul li 
+	{
+		text-decoration: none;
+		color: #000000;
+	}
+
+	nav ul li:hover
+	{
+		background: #ffb6c1;
+	}
+
+	section
+	{
+		background: #fff;
+		
+		height: 300px;
+		margin-bottom: 10px;
+		border-radius: 10px  10px;
+
+	}
+
+	#login{
+		width:100%;
+		border-radius:10px;
+		float: left;
+	}
+
+	footer
+	{
+		background: #73abdf; /* Old browsers */
+		background: -moz-linear-gradient(left, #73abdf 18%, #4378cd 45%, #4378cd 45%, #5b9add 67%, #88b9e4 84%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, #73abdf 18%,#4378cd 45%,#4378cd 45%,#5b9add 67%,#88b9e4 84%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #73abdf 18%,#4378cd 45%,#4378cd 45%,#5b9add 67%,#88b9e4 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		height: 20px;
+		border-radius: 10px 10px;
+		clear: both;
+	}
+
+	#login2{
+		background: #d2b48c;
+		margin: 10px auto;
+		width: 30%;
+		border-radius: 10px;
+		padding:10px;
+	}
+	p
+	{
+		text-align:center;
+
+	}
+	
+
+	table td, th
+	{
+	border: 5px #d3d3d3 solid;
+	text-decoration: none;
+    color: #000;
+	}
+
+	table, td
+	{
+		border:2px black solid;
+		text-align: center;
+	}
+
+	table
+	{
+	margin: auto;
+	
+	
+	}
+	a
+	{
+		text-decoration: none;
+    	color: #000;
+	}
+	img{
+		margin: center;
+		text-align:center;
+
+	}
+
+
